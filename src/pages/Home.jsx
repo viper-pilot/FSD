@@ -149,7 +149,7 @@ export default function Home() {
             </div>
             <div className="feature">
               <div className="feature-icon insights-icon"></div>
-              <span>Smart Insights</span>
+              <span>Easy Resume Upload</span>
             </div>
           </div>
           
