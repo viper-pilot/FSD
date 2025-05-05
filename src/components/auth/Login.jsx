@@ -16,7 +16,7 @@ export default function Login() {
 
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate('/dashboard');
+      navigate('/dashboard'); // This redirects to dashboard on success
     } catch (err) {
       setError(err.message);
     }

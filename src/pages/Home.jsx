@@ -76,7 +76,7 @@ export default function Home() {
           far={100}
         />
         
-        <ambientLight intensity={0.8} color="#c0caf5" />
+        <ambientLight intensity={1.2} color="#c0caf5" />
         <directionalLight
           position={[5, 7, 5]}
           intensity={1.5}
