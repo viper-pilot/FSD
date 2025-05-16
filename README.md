@@ -1,4 +1,4 @@
-**Quantum – 3D Resume Classification Webpage**
+Quantum – 3D Resume Classification Webpage
 
 Quantum is a 3D-enhanced web application built using React and Three.js, integrated with a Python backend for intelligent resume classification.
 
@@ -12,19 +12,19 @@ Quantum is a 3D-enhanced web application built using React and Three.js, integra
 
 FSD/
 │
-├── 3d-resume-website/     # Frontend React App with Three.js
+├── 3d-resume-website/       # Frontend React App with Three.js
 │   ├── public/
 │   ├── src/
 │   ├── package.json
 │   └── ...
 │
-├── backend/               # Python Flask API
+├── backend/                 # Python Flask API
 │   ├── app.py
-│   ├── model/             # Model and utilities
+│   ├── model/               # Model and utilities
 │   ├── requirements.txt
 │   └── ...
-
 ⚙️ Running the Project
+
 🖥️ Frontend
 Navigate to the frontend directory:
 cd 3d-resume-website
@@ -32,7 +32,8 @@ Install dependencies:
 npm install
 Start the development server:
 npm start
-Open your browser at http://localhost:3000
+Open your browser and visit:
+http://localhost:3000
 🧠 Backend (Python API)
 Navigate to the backend directory:
 cd backend
@@ -43,22 +44,24 @@ Install dependencies:
 pip install -r requirements.txt
 Start the Flask server:
 python3 app.py
-The backend runs on http://localhost:5000
-
+The backend runs at:
+http://localhost:5000
 📦 Dependencies
 
-Frontend
+🖼️ Frontend
 react
 three
-react-three-fiber
+@react-three/fiber
 @react-three/drei
 Install with:
 
 npm install three @react-three/fiber @react-three/drei
-Backend
+🧪 Backend
 flask
 flask-cors
-scikit-learn, pandas, joblib, etc.
+scikit-learn
+pandas
+joblib
 Install with:
 
 pip install flask flask-cors scikit-learn pandas joblib
