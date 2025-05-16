@@ -23,6 +23,7 @@ FSD/
 │   ├── model/               # Model and utilities
 │   ├── requirements.txt
 │   └── ...
+
 **
 ⚙️ Running the Project
 🖥️ Frontend**
