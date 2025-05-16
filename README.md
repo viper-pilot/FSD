@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+**Quantum – 3D Resume Classification Webpage**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Quantum is a 3D-enhanced web application built using React and Three.js, integrated with a Python backend for intelligent resume classification.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+🌐 3D interactive frontend using Three.js
+⚙️ Python-based backend model for resume classification
+📄 Upload and classify resumes in real-time
+🔗 Seamless frontend-backend communication
+📁 Project Structure
 
-### `npm start`
+FSD/
+│
+├── 3d-resume-website/     # Frontend React App with Three.js
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── ...
+│
+├── backend/               # Python Flask API
+│   ├── app.py
+│   ├── model/             # Model and utilities
+│   ├── requirements.txt
+│   └── ...
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+⚙️ Running the Project
+🖥️ Frontend
+Navigate to the frontend directory:
+cd 3d-resume-website
+Install dependencies:
+npm install
+Start the development server:
+npm start
+Open your browser at http://localhost:3000
+🧠 Backend (Python API)
+Navigate to the backend directory:
+cd backend
+Set up a virtual environment:
+python3 -m venv env
+source env/bin/activate
+Install dependencies:
+pip install -r requirements.txt
+Start the Flask server:
+python3 app.py
+The backend runs on http://localhost:5000
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📦 Dependencies
 
-### `npm test`
+Frontend
+react
+three
+react-three-fiber
+@react-three/drei
+Install with:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install three @react-three/fiber @react-three/drei
+Backend
+flask
+flask-cors
+scikit-learn, pandas, joblib, etc.
+Install with:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+pip install flask flask-cors scikit-learn pandas joblib
